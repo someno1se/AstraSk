@@ -1,24 +1,19 @@
-# AstraSk
+# Astra Sk
 
-Minimal YouTube browser extension for Chrome and Edge.
+Simple YouTube controls for Chrome and Edge.
 
 ## Features
 
-- Dark appearance
+- Dark theme
 - Playback speed presets
 - Video zoom
-- Optional SponsorBlock integration
-- JSON settings export and import
+- Optional SponsorBlock
+- Settings backup and restore
 
 ## Install
 
 1. Open `chrome://extensions` or `edge://extensions`.
 2. Enable developer mode.
-3. Select Load unpacked and choose this repository folder.
-4. Open YouTube and configure AstraSk from the extension popup.
+3. Load this repository folder as an unpacked extension.
 
-## Platform scope
-
-The current build runs on desktop Chromium browsers. Safari for iPhone requires separate packaging, signing, and compatibility testing. No native iOS app patching, ad blocking, or background playback is claimed.
-
-SponsorBlock is opt-in and requests segment information from sponsor.ajay.app for the current video.
+Safari on iPhone is not supported by this build. Ad blocking and background playback are not implemented.

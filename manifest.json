@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "AstraSk for YouTube",
-  "version": "0.1.0",
-  "description": "Minimal YouTube playback controls",
+  "name": "Astra Sk",
+  "version": "0.1.1",
+  "description": "Simple YouTube controls",
   "permissions": [
     "storage"
   ],
