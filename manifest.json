@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AstraSk for YouTube",
+  "version": "0.1.0",
+  "description": "Minimal YouTube playback controls",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://sponsor.ajay.app/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
