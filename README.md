@@ -1,14 +1,16 @@
 # Astra Sk
 
-Simple YouTube controls for Chrome and Edge.
+Minimal YouTube controls for Chrome and Edge, with iPhone Safari as the long-term target.
 
 ## Features
 
 - Dark theme
 - Playback speed presets
 - Video zoom
-- Optional SponsorBlock
-- Settings backup and restore
+- Hide Shorts shelves and navigation entries
+- Hide related videos on watch pages
+- Optional SponsorBlock integration
+- JSON settings backup and restore
 
 ## Install
 
@@ -16,4 +18,6 @@ Simple YouTube controls for Chrome and Edge.
 2. Enable developer mode.
 3. Load this repository folder as an unpacked extension.
 
-Safari on iPhone is not supported by this build. Ad blocking and background playback are not implemented.
+## iPhone
+
+This is not an iPhone installable build. Safari extension packaging, signing, and device testing are still required. YouTube's markup may change and break hiding rules. SponsorBlock network compatibility is not yet verified on Safari. Ad blocking and background playback are not implemented.
